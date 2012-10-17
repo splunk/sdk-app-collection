@@ -1,0 +1,4 @@
+Oct 16 00:31:36 fross-mbp15 newsyslog[54358]: logfile turned over
+Oct 16 00:51:42 fross-mbp15 LKDCHelper[54570]: Starting (uid=630863337)
+Oct 16 00:54:59 fross-mbp15 eapolclient[40606]: eapmschapv2_success_request: successfully authenticated
+Oct 16 00:54:59 fross-mbp15 eapolclient[40606]: en1 EAP-FAST: successfully authenticated

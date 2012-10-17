@@ -1,0 +1,1 @@
+# AppCollection for SDK testing
