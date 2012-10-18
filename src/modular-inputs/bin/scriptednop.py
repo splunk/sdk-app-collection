@@ -1,0 +1,3 @@
+#!python
+
+exit(0)
