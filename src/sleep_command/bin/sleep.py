@@ -15,6 +15,9 @@ where x and y are real numbers. This inserts y seconds before
 ready and x seconds before done. Both arguments are optional.
 If either is omitted, no additional time is inserted into that
 phase.
+
+NOTE: I have not confirmed that ready actually injects time
+before the job is ready.
 """
 import sys
 import time
