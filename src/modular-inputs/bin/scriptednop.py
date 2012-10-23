@@ -1,3 +1,0 @@
-#!python
-
-exit(0)
