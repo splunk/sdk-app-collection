@@ -1,9 +1,20 @@
 import splunk.Intersplunk
-import time
 import sys
 import os
 
+from time import sleep
+from datetime import datetime, timedelta
+
 DEFAULT = 10
+
+# time.sleep on Windows ignores signals,
+# and so prevents processes from being killed.
+def safe_sleep(t):
+    start = datetime.now()
+    diff = timedelta(seconds=t)
+    while datetime.now() - start < diff:
+        sleep(0.05)
+
 
 if len(sys.argv) > 1:
     try:
@@ -13,13 +24,6 @@ if len(sys.argv) > 1:
 else:
     safe_sleep(DEFAULT)
 
-# time.sleep on Windows ignores signals,
-# and so prevents processes from being killed.
-def safe_sleep(t):
-    start = datetime.now()
-    diff = timedelta(seconds=t)
-    while datetime.now() - start < diff:
-        sleep(0.05)
 
 results, u1, u2 = splunk.Intersplunk.getOrganizedResults()
 splunk.Intersplunk.outputResults(results)
