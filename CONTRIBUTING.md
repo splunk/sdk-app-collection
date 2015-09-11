@@ -12,7 +12,7 @@ If you would like to contribute to this project, go here for more information:
 
 If you're seeing some unexpected behavior with this project, please create an [issue on GitHub][issues] with the following information:
 
-0. Version of this project you're using (ex: 1.3.1)
+0. Version of this project you're using (ex: 1.0.0)
 0. Platform version (ex: Windows Server 2012)
 0. Splunk version (ex: 6.2.2)
 0. Other relevant information (ex: local/remote environment, Splunk network configuration)
