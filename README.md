@@ -7,7 +7,7 @@ This repository is **ONLY** useful if you are testing one of Splunk's SDKs. **DO
 This SDK App Collection is used to test the following SDKs:
 
 * [splunk-sdk-python](https://github.com/splunk/splunk-sdk-python)
-* [splunk-sdk-javascript](https://github.com/splunk/splunk-sdk-python)
+* [splunk-sdk-javascript](https://github.com/splunk/splunk-sdk-javascript)
 * [splunk-sdk-java](https://github.com/splunk/splunk-sdk-java)
 * [splunk-sdk-ruby](https://github.com/splunk/splunk-sdk-ruby)
 * [splunk-sdk-csharp](https://github.com/splunk/splunk-sdk-charp)
